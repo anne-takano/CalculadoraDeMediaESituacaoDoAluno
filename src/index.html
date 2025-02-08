@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculadora de Média do Aluno</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>Calculadora de Média do Aluno</h1>
+    <p>Digite as notas das avaliações:</p>
+    <div class="container">
+      <input
+        type="number"
+        min="0"
+        max="10"
+        id="nota1"
+        placeholder="Nota da AV1"
+      />
+      <input
+        type="number"
+        min="0"
+        max="10"
+        id="nota2"
+        placeholder="Nota da AV2"
+      />
+      <input
+        type="number"
+        min="0"
+        max="10"
+        id="nota3"
+        placeholder="Nota da AV3"
+      />
+      <input
+        type="number"
+        min="0"
+        max="10"
+        id="nota4"
+        placeholder="Nota da AV4"
+      />
+    </div>
+    <p id="resultado"></p>
+    <p id="statusAprovacao"></p>
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <br />
+    <button onclick="reiniciarCalculo()" id="reiniciar" disabled>
+      Realizar Outro Cálculo
+    </button>
+    <script src="index.js"></script>
+  </body>
+</html>

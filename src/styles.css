@@ -1,0 +1,15 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  margin: 0;
+}
+.container {
+  display: grid;
+  gap: 10px;
+}
+input {
+  width: 150px;
+  text-align: center;
+}
